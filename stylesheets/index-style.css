@@ -1,0 +1,40 @@
+html {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: red;
+}
+
+#main-div {
+    margin: 120px auto;
+    background-color: white;
+    width: 500px;
+    border: 3px solid black;
+    text-align: center;
+    box-shadow: 3px 3px 3px black;
+    transition: all 2s ease-out;
+}
+
+#main-div:hover {
+    background-color: rgb(163, 163, 163);
+    border: 3px solid white;
+}
+
+a {
+    text-decoration: none;
+    transition: all 1s ease-out;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+ul {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    display: block;
+    margin-top: -100px;
+}
